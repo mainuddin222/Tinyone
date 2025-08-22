@@ -1,0 +1,395 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* custom css start */
+    .c_section{
+        padding: 50px 0px 50px 0px;
+    }
+
+
+    /* custom css end */
+
+    /* header start */
+    header{
+        padding: 20px 0px;
+    }
+
+    .menu ul li a {
+        text-align: right;
+        font-size: 18px;
+        padding: 0px 0px 5px 0px !important;
+    }
+    /* header end */
+
+
+
+    /* slider section start */
+
+    .slider{
+        padding-bottom: 50px;
+    }    
+
+        /* carousel-indicators */
+    .c_ind {
+        bottom: -50px;
+    }
+
+    .c_ind [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+
+        /* slider text */
+    .s_text {
+        margin-top: 0px;
+    }
+
+    .s_text h1{
+        font-size: 25px;
+        margin-bottom: 10px !important;
+    }
+
+    .s_text h2{
+        font-size: 18px;
+        margin-bottom: 10px !important;
+    }
+
+    .s_text p{
+        margin-bottom: 15px !important;
+    }
+
+    
+    .s_text .icon ul li i{
+        font-size: 30px;
+        margin-right: 15px !important;
+    }
+
+    /* slider section end */
+
+
+    /* features section start */
+
+    /* 1st row */
+    .c_header h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .c_header p{
+        font-size: 16px;
+    }
+
+
+    /* 2nd row */ 
+    .f_item{
+        margin-top: 40px;
+    }
+
+    .f_icon i {
+        font-size: 40px;
+    }
+
+    .f_text{
+        text-align: center;
+    }
+
+    .f_text h2{
+        margin-bottom: 2px;
+    }
+
+    .f_text p {
+        line-height: 20px;
+        letter-spacing: 0px;
+    }    
+
+    /* features section end */
+
+
+
+    /* contact form start */
+
+    /* 2nd row */
+    .c_form {
+        margin: 40px 0px 40px 0px;
+    }
+
+    .c_input {
+        height: 40px;
+        padding: 15px 20px;
+    }
+
+    .c_button {
+        height: 40px;
+    }
+
+    /* 3rd row */
+    .c_icon ul li {
+        margin-right: 5px !important;
+    }    
+
+    .c_icon ul li i {
+        font-size: 35px !important;
+    }
+    /* contact form end */
+
+
+    footer{
+        padding-bottom: 80px;
+    }
+
+    .f_link{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .f_link ul li a{
+        letter-spacing: 1.2px;
+    }
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* custom css start */
+    .c_section{
+        padding: 60px 0px 60px 0px;
+    }
+
+
+    /* custom css end */
+
+
+    /* header start */
+
+    header {
+        padding: 20px 0px;
+    }
+
+    .menu ul li a {
+        text-align: right;
+        font-size: 20px;
+        padding: 0px 0px 5px 0px !important;
+    }
+
+    /* header end */
+
+
+
+    /* slider section start */
+
+    .slider{
+        padding-bottom: 60px;
+    }    
+
+        /* carousel-indicators */
+    .c_ind {
+        bottom: -60px;
+    }
+
+    .c_ind [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+
+        /* slider text */
+    .s_text {
+        margin-top: 0px;
+    }
+
+    .s_text h1{
+        font-size: 28px;
+        margin-bottom: 15px !important;
+    }
+
+    .s_text h2{
+        font-size: 18px;
+        margin-bottom: 15px !important;
+    }
+
+    .s_text p{
+        font-size: 16px;
+        margin-bottom: 20px !important;
+    }
+
+    
+    .s_text .icon ul li i{
+        font-size: 30px;
+        margin-right: 20px !important;
+    }
+
+
+    /* slider section end */
+
+
+    /* features section start */
+        /* 1st row */
+
+    .c_header h1{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .c_header p{
+        font-size: 16px;
+    }
+
+
+
+        /* 2nd row */
+
+    .f_item{
+        margin-top: 30px;
+    }
+
+    .f_icon i {
+        font-size: 40px;
+    }
+
+    .f_text{
+        text-align: center;
+    }
+
+    .f_text h2{
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .f_text p {
+        line-height: 20px;
+        letter-spacing: 0px;
+    }    
+
+    /* features section end */
+
+
+    /* contact form start */
+
+    /* 2nd row */
+    .c_form {
+        margin: 40px 0px 40px 0px;
+    }
+
+    .c_input {
+        height: 40px;
+        padding: 15px 20px;
+    }
+
+    .c_button {
+        height: 40px;
+    }
+
+
+    /* 3rd row */
+    .c_icon ul li {
+        margin-right: 10px !important;
+    }
+    
+    /* contact form end */
+
+    /* footer section start */
+    footer{
+        padding-bottom: 80px;
+    }
+
+    .f_link{
+        text-align: center;
+    }
+    /* footer section end */
+}
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* custom css start */
+    .c_section{
+        padding: 80px 0px 80px 0px;
+    }    
+    /* custom css end */
+
+
+    
+    /* header sectioin start */
+    header{
+        padding: 40px 0px;
+    }    
+
+    .menu ul li a {
+        text-align: right;
+        padding: 0px 0px 5px 0px !important;
+    }
+    /* header section end */
+
+
+
+    /* slider section start */
+    .slider{
+        padding-bottom: 80px;
+    }
+
+    .c_ind {
+        bottom: -75px;
+    }
+    /* slider section end */
+
+
+
+    /* features section start */
+
+    .f_item{
+        margin-top: 60px;
+    }
+
+    .f_text p{
+        letter-spacing: 0px;
+    }
+
+    /* features section end */
+
+
+
+    /* contact section start */
+
+    
+    /* 2nd row */
+    .c_form {
+        margin: 35px 0px 55px 0px;
+    }    
+
+    /* 3rd row */
+    .c_icon ul li {
+        margin-right: 15px !important;
+    }    
+    /* contact section end */
+
+    /* footer section start */
+    footer{
+        padding-bottom: 100px;
+    }
+
+
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+
+/* ExtraExtra large devices (large desktops, 1400px and up) */
+@media(max-width: 1400px) {
+
+}

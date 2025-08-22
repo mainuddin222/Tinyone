@@ -1,0 +1,251 @@
+/* custom font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+/* custom css start */
+:root{
+    /* color */
+    --white :#ffffff;
+    --black: #010101;
+    --gray: #858585;
+    --dark-gray :#232527d3;
+    --golden-yellow : #fcdb00;
+    --orenge: #FFA500;
+
+    /* font */
+    --pt: "PT Sans", sans-serif;
+}
+
+body{
+    font-family: var(--pt);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.c_section{
+    background-color: var(--white);
+    padding: 100px 0px 120px 0px;
+}
+
+/* custom css end */
+
+
+/* header start */
+header{
+    background-color: var(--golden-yellow);
+    padding: 40px 0px;
+}
+
+/* .logo{}
+.menu{} */
+
+.menu ul li a{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black) !important;
+    padding: 0px 30px !important;
+}
+.menu ul li:last-child a{
+    padding-right: 0px !important;
+}
+.menu ul li a:hover{
+    color: var(--white) !important;
+}
+
+/* header end */
+
+
+
+
+
+/* slider section start */
+.slider{
+    background-color: var(--golden-yellow);
+    padding-bottom: 100px;
+}
+
+    /* carousel-indicators start */
+.c_ind {
+    bottom: -80px;
+}
+
+.c_ind [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+    /* carousel-indicators end */
+
+
+    /* carousel-inner start */
+.s_text{
+    margin-top: 80px;
+}
+
+.s_text h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 20px !important;
+}
+
+.s_text h2{
+    font-size: 20px;
+    color: var(--dark-gray);
+    margin-bottom: 20px !important;
+}
+
+.s_text p{
+    color: rgb(97, 97, 97);
+    margin-bottom: 30px !important;
+}
+
+.s_text .icon ul li i{
+    font-size: 42px;
+    color: var(--black);
+    margin-right: 30px !important;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.s_text .icon ul li i:hover{
+    transform: scale(.8);
+}
+
+    /* carousel-inner end */
+/* slider end */
+
+/* feature start */
+
+    /* 1st row */
+/* .c_header{} */
+.c_header h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+.c_header p{
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--dark-gray);
+}
+
+/* 2nd row */
+
+.f_item{
+    margin-top: 80px;
+}
+/* .f_icon{} */
+.f_icon i{
+    font-size: 50px;
+    color: var(--black);
+    margin-top: 4px !important;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.f_icon i:hover{
+    transform: scale(.8);
+}
+
+/* .f_text{} */
+.f_text h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+.f_text p{
+    letter-spacing: 1px;
+}
+
+/* feature end */
+
+
+
+/* contact section start */
+
+    /* 1st row */
+.contact{
+    background-color: var(--black);
+}
+
+.contact_t{
+    color: var(--golden-yellow) !important;
+}
+
+.contact_d{
+    color: #898989 !important;
+}
+
+
+    /* 2nd row */
+.c_form{
+    margin: 35px 0px 75px 0px;
+}
+.c_input{
+    height: 50px;
+    font-family: var(--pt) !important;
+    color: var(--gray) !important;
+    padding: 15px 25px;
+}
+
+.c_button{
+    width: 100%;
+    height: 50px;
+    background-color: var(--golden-yellow);
+    font-family: var(--pt);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+
+.c_button:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.c_button:active{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+
+/* 3rd row */
+/* .c_icon{} */
+.c_icon ul li{
+    margin-right: 25px !important;
+}
+
+.c_icon ul li:last-child{
+    margin-right: 0px !important;
+}
+
+.c_icon ul li i{
+    font-size: 42px !important;
+    color: var(--golden-yellow);
+    transition: .3s ease-in-out;
+}
+
+.c_icon ul li i:hover{
+    color: var(--white);
+}
+/* contact section end */
+
+
+/* footer section start */
+footer{
+    background-color: var(--black);
+    padding-bottom: 120px;
+}
+
+.c_link ul li a{
+    transition: .3s ease-in-out;
+}
+.c_link ul li a:hover{
+    color: var(--golden-yellow) !important;
+}
